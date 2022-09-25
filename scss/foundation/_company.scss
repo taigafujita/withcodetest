@@ -1,0 +1,87 @@
+.com-title{
+    width: 90%;
+    margin: 0 auto;
+    h1{
+    display: inline-block;
+    background: linear-gradient(-90deg, rgba(0,0,0,1) 0%, rgba(0,61,133,1) 47%, rgba(0,117,255,1) 100%, rgba(0,117,255,1) 117%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 60px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    padding-top: 2em;
+    letter-spacing: 0.5em;
+    
+    }
+}
+.com-top{
+    width: 100%;
+    position: relative;
+    .com-img{
+        width: 100%;
+    }
+    .com-top-t{
+        position: absolute;
+        top: 50%;
+        transform: translate(50%, -50%);
+        background-color: #0B61C5;
+        width: 25em;
+        padding: 5em 5em;
+        opacity: 0.8;
+        text-align: left;
+        color: white;
+        h3{
+            font-size: 30px;
+            padding-bottom: 1em;
+            font-weight: 100;
+            opacity: 1;
+            letter-spacing: 0.2em;
+            .ppp{
+                font-size: 14px;
+                padding-right: 2em;
+                opacity: 1;
+            }
+        }
+        h4{
+            text-align: left;
+            font-weight: 100;
+            opacity: 1;
+        }
+        h5{
+            text-align: center;
+            font-size: 70px;
+            letter-spacing: 0.2em;
+            font-weight: 300;
+            padding: 0.2em 0 0 0;
+            opacity: 1;
+        }
+    }
+}
+.com-main{
+    width: 60%;
+    margin: 0 auto;
+    padding: 4em 0;
+    .com-m-t{
+        display: flex;
+        width: 100%;
+        padding: 0.8em;
+        margin-bottom: 1em;
+        line-height: 2em;
+        border-bottom: 1px solid black;
+        border-image: linear-gradient(274deg, rgba(247,255,0,1) 0%, rgba(0,144,255,1) 43%, rgba(0,78,198,1) 100%);
+        border-image-slice: 1;
+        .com-m-l{
+            width: 20%;
+        }
+        .com-m-r{
+            width: 80%;
+            text-align: left;
+        }
+    }
+}
+.map{
+    width: 60%;
+    margin: 0 auto;
+    text-align: right;
+    padding-bottom: 13em;
+}

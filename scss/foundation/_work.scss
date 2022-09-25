@@ -1,0 +1,88 @@
+.wo{
+    width: 100%;
+    text-align: center;
+    padding: 4em 0 5em 0;
+}
+.work-title{
+    margin: 0 auto;
+    display: inline-block;
+    background: linear-gradient(-90deg, rgba(0,0,0,1) 0%, rgba(0,61,133,1) 47%, rgba(0,117,255,1) 100%, rgba(0,117,255,1) 117%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    h1{
+        font-size: 100px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 300;
+    }
+}
+.work-txt{
+    padding-top: 4em;
+    p{
+        text-align: center;
+        padding-bottom: 3em;
+    }
+    h4{
+        width: 40%;
+        font-size: 18px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 300;
+        letter-spacing: 0.1em;
+        line-height: 1.5em;
+        margin: 0 auto;
+        padding-top: 3em;
+    }
+}
+
+.work-main{
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 6em;
+    display: flex;
+    justify-content: space-between;
+    .work-kiji{
+        width: 30%;
+        text-align: center;
+        box-shadow: 3px 3px 8px#a2cdff;
+        :hover{
+            opacity: 0.8;
+        }
+        img{
+            width: 100%;
+            margin: 0 auto;
+        }
+        .work-a{
+            width: 90%;
+            margin: 0 auto;
+            text-align: left;
+            padding: 1em 0 2em 0;
+            h5{
+                padding-bottom: 2em;
+                font-size: 14px;
+                color: rgb(134, 134, 134);
+            }
+            h4{
+                padding-bottom: 3em;
+            }
+            h3{
+                padding-bottom: 2em;
+            }
+            p{
+                font-size: 13px;
+                line-height: 1.6em;
+                padding-bottom: 2em;
+            }
+            h2{
+                text-align: center;
+                padding: 1em 0 1em 0.5em;
+                background: #0B61C5;
+                width: 7em;
+                margin: 0 auto;
+                border-radius: 5px;
+                color: white;
+            }
+        }
+    }
+}
+.work-all{
+    padding-bottom: 7em;
+}

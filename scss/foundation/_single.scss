@@ -1,0 +1,40 @@
+.sin-img{
+    width: 60%;
+    margin: 0 auto;
+    padding-top: 5em;
+    .sin-i{
+        img{
+            width: 100%;
+        }
+    }
+    .sin-ii{
+        img{
+            width: 60%;
+        }
+    }
+}
+.sin-txt{
+    padding: 2em 0 10em 0;
+    h3{
+        font-size: 15px;
+    }
+    h4{
+        padding-top: 2em;
+        font-size: 15px;
+        font-weight: 600;
+    }
+    p{
+        padding-top: 4em;
+        line-height: 1.5em;
+    }
+    h2{
+        font-size: 13px;
+        font-weight: 100;
+        color: rgb(86, 86, 86);
+        padding-top: 3em;
+    }
+}
+
+.pan-ore{
+    color: #0B61C5;
+}

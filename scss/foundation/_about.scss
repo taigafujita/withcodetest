@@ -1,0 +1,53 @@
+.about-fv{
+    margin-top: 6em;
+    position: relative;
+    width: 100%;
+    img{
+        width: 100%;
+    }
+    h1{
+        position: absolute;
+        transform: translate(10%, -50%);
+        top: 50%;
+        right: 1em;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 300;
+        font-size: 6em;
+        color: white;
+        letter-spacing: 0.3em;
+    }
+}
+.about-midasi{
+    width: 60%;
+    margin: 0 auto;
+    padding: 9em 0;
+    img{
+        width: 100%;
+    }
+    p{
+        text-align: right;
+        color: rgb(138, 138, 138);
+        font-family: 'Montserrat', sans-serif;
+        font-size: 20px;
+    }
+}
+.about-img{
+    width: 99%;
+    display: flex;
+    justify-content:space-between;
+    margin: 0 auto;
+    img{
+        width: 33%;
+    }
+}
+.about-main{
+    padding-top: 10em;
+    padding-bottom: 14em;
+    width: 30%;
+    margin: 0 auto;
+    letter-spacing: 0.1em;
+    line-height: 2em;
+    p{
+        padding-bottom: 3em;
+    }
+}
